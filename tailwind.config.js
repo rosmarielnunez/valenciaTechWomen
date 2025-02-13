@@ -34,7 +34,10 @@ module.exports = {
                     //background: rgba(173, 164, 255, 0.06);
           //'gradient-primary': 'linear-gradient(to right, #FC829C, #FBD550)', Delete for now
         },
-        
+        fontFamily: {
+          display: ['Wix Madefor Display', 'sans-serif'],
+          text: ['Wix Madefor Text', 'sans-serif'],
+        },
       },
     },
   plugins: [],

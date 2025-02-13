@@ -2,21 +2,3 @@
 @use "tailwindcss/base";
 @use "tailwindcss/components";
 @use "tailwindcss/utilities";
-
-.textTitle {
-    font-family: "Wix Madefor Display";
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 120%;
-    /* 72px */
-}
-
-.textParagraph {
-    font-family: "Wix Madefor Text";
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-}
