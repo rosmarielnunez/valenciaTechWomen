@@ -20,6 +20,7 @@ module.exports = {
           quinary: '#E0DCD6',
           senary: '#F7F7F7',
           septenary: '#505051',
+          octonary: '#ADA4FF',
         },
         backgroundImage: {
           'gradient-primary': 'linear-gradient(77deg, #FFF 57.95%, rgba(251, 213, 80, 0.43) 149.98%, #FBD550 153.53%)',
