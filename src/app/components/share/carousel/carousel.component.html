@@ -1,34 +1,26 @@
-<div class="carousel-container">
-    <!-- <a class="imageEvent"></a> -->
-    <img src= "/assets/image-event/image_firtsEvent_3.jpg" alt="" class="h-[240px] w-[720px]">
-    <div class="carousel-wrapper">
+  <div class="carousel-container">
+    <div class="carousel-wrapper" [style.transform]="'translateX(' + (-currentIndex * 100) + '%)'">
         @for(image of images; track image) {
-            <div
-            class="carousel-slide"
-            [class.active]="images.indexOf(image) === currentIndex"
-          >
-            <img [src]="image" alt="Slide {{ images.indexOf(image) + 1 }}" />
-          </div>
+            <div class="carousel-slide">
+                <img [src]="image" alt="Slide {{ images.indexOf(image) + 1 }}" />
+            </div>
         } @empty {
             <div class="carousel-slide">
                 <p>No images available</p>
             </div>
-    }
-
+        }
     </div>
-    <!-- Botón anterior -->
     <button class="carousel-button prev" (click)="prevSlide()">❮</button>
-    <!-- Botón siguiente -->
+
     <button class="carousel-button next" (click)="nextSlide()">❯</button>
-  
-    <!-- Indicadores de posición -->
+
     <div class="carousel-indicators">
         @for(image of images; track image){
-            <span class="dot" [class.active]="images.indexOf(image) === currentIndex" (click)="goToSlide(images.indexOf(image))">
-
+            <span class="dot" [class.active]="images.indexOf(image) === currentIndex" 
+                  (click)="goToSlide(images.indexOf(image))">
             </span>
         } @empty {
             <p>No images available</p>
         }
     </div>
-  </div>
+</div>

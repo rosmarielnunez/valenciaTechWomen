@@ -7,9 +7,9 @@ import { Component, Input } from '@angular/core';
   styleUrl: './carousel.component.scss'
 })
 export class CarouselComponent {
-  @Input() images: string[] = []; // Recibe imágenes desde el padre
-  @Input() autoPlay: boolean = true; // Habilitar autoplay
-  @Input() interval: number = 3000; // Intervalo de autoplay (ms)
+  @Input() images: string[] = [];
+  @Input() autoPlay: boolean = true;
+  @Input() interval: number = 3000;
 
   currentIndex: number = 0;
   intervalId: any;
