@@ -1,65 +1,80 @@
-<section class="body">
-    <div class="h-[554px] bg-white flex justify-between items-center px-[102px]">
-        <div class="w-[340px] h-[468px] flex flex-col justify-between items-start flex-shrink-0">
-            <h1 class="text-primary font-display text-[60px] font-extrabold leading-[72px] self-stretch">Valencia Tech
-                Women</h1>
-            <p class="text-septenary font-text text-[22px] font-normal leading-[34px] self-stretch">Connect, share and
-                grow in a community designed to inspire women in tech</p>
-            <button class="bg-octonary text-white font-text h-[40px] w-[139px] rounded-full cursor-pointer">Join
-                us</button>
-        </div>
-        <app-carousel
-            [images]="['/assets/image-event/image_firtsEvent.jpg', '/assets/image-event/image_eg.jpeg', '/assets/image-event/image_ega.jpeg']"
-            [autoPlay]="true" 
-            [interval]="4000"></app-carousel>
-    </div>
-    <div class="h-[803px] bg-gradient-tertiary">
-        <div class="pt-[114px] pl-[102px] pb-[74px] border-b-[1px] border-b-tertiary">
-            <div class="w-[120px] h-[26px] bg-black rounded-tr-[14px]"><span class="text-white font-text pl-[10px]">Who
-                    we are?</span></div>
-            <h2 class="font-display text-tertiary text-[40px] font-bold leading-[48px]">Our goal</h2>
-        </div>
-        <div class="pt-[52px] pl-[102px] pb-[43px] pr-[102px] border-b-[1px] border-b-tertiary">
-            <div class="flex justify-between items-center gap-20">
-                <h1 class="text-primary font-display text-[60px] font-bold leading-[66px] w-[77px]">01</h1>
-                <h2 class="font-display text-tertiary text-[28px] font-semibold leading-[30.8px] w-[200px]">Connection
-                </h2>
-                <p class="text-septenary font-text text-[22px] font-normal leading-[34px] w-[600px]">
-                    We build a strong network for women in technology in Valencia, creating opportunities to
-                    collaborate, grow and support each other.</p>
+<section>
+    <div class="h-auto bg-white flex flex-col items-center justify-center lg:flex-row">
+        <div class="w-full sm:max-w-4xl md:max-w-5xl lg:max-w-6xl xl:max-w-7xl flex flex-col lg:flex-row justify-center lg:justify-between items-center py-20">
+            <div
+                class="w-full sm:w-[720px] lg:w-[340px] h-auto lg:h-[468px] flex flex-col justify-between items-center lg:items-start flex-shrink-0">
+                <h1 class="text-primary font-display text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[72px] w-full">Valencia Tech
+                    Women</h1>
+                <p class="text-septenary font-text text-xl font-normal leading-[34px] w-full">
+                    Connect, share and grow in a community designed to inspire women in tech
+                </p>
+                <button class="bg-octonary text-white font-text h-[40px] w-[139px] rounded-full mt-4 m-2">Join us</button>
             </div>
-        </div>
-        <div class="pt-[52px] pl-[102px] pb-[43px] pr-[102px] border-b-[1px] border-b-tertiary">
-            <div class="flex justify-between items-center gap-20">
-                <h1 class="text-primary font-display text-[60px] font-bold leading-[66px] w-[77px]">02</h1>
-                <h2 class="font-display text-tertiary text-[28px] font-semibold leading-[30.8px] w-[200px]">Union
-                </h2>
-                <p class="text-septenary font-text text-[22px] leading-[34px] w-[600px]">
-                    We offer an inclusive space where every voice is heard and every experience is valued.</p>
-            </div>
-        </div>
-        <div class="pt-[62px] pl-[102px] pb-[44px] pr-[102px]">
-            <div class="flex justify-between items-center gap-20">
-                <h1 class="text-primary font-display text-[60px] font-bold leading-[66px] w-[77px]">03</h1>
-                <h2 class="font-display text-tertiary text-[28px] font-semibold leading-[30.8px] w-[200px]">Community
-                </h2>
-                <p class="text-septenary font-text text-[22px] leading-[34px] w-[600px]">
-                    We exchange knowledge, stories and lessons to promote personal and professional development.</p>
+            <div class="w-full lg:w-auto mt-6 lg:mt-0">
+                <app-carousel
+                    [images]="['/assets/image-event/firtsMeet_1.png', '/assets/image-event/firtsMeet_2.png', '/assets/image-event/firtsMeet_3.png' , '/assets/image-event/firtsMeet_4.png']"
+                    [autoPlay]="true" [interval]="4000"></app-carousel>
             </div>
         </div>
     </div>
-    <div class="h-[662px] bg-gradient-primary px-[102px] flex flex-col items-center justify-center">
-        <h2 class="text-primary font-display text-[40px] font-bold leading-[48px]">Why join <br>Valencia Tech Women?
-        </h2>
-        <div class="flex justify-between items-center gap-10 mt-6">
-            <div class="w-[492px] h-[251px]">
-                <img src="/assets/image-event/image_firtsEvent.jpg" alt="Firts Event" class="h-[251px] w-[492px] rounded-[44px]">
+    <div class="h-auto bg-gradient-tertiary flex flex-col items-center justify-center py-">
+        <div class="w-full sm:max-w-4xl md:max-w-5xl lg:max-w-6xl xl:max-w-7xl">
+            <div class="pt-[114px] pb-[74px] border-b border-tertiary">
+                <div class="w-[120px] h-[26px] bg-black rounded-tr-[14px]">
+                    <span class="text-white font-text pl-[10px]">Who we are?</span>
+                </div>
+                <h2 class="font-display text-tertiary text-[40px] font-bold leading-[48px]">Our goal</h2>
             </div>
-            <div>
+            <div class="pt-[52px] pb-[43px] pl-[102px] pr-[102px] border-b border-tertiary">
+                <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 lg:gap-20">
+                    <h1 class="text-primary font-display text-[60px] font-bold leading-[66px] w-[77px]">01</h1>
+                    <h2
+                        class="font-display text-tertiary text-[28px] font-semibold leading-[30.8px] w-full lg:w-[200px]">
+                        Connection</h2>
+                    <p class="text-septenary font-text text-[22px] font-normal leading-[34px] w-full lg:w-[600px]">
+                        We build a strong network for women in technology in Valencia, creating opportunities to
+                        collaborate, grow and support each other.
+                    </p>
+                </div>
+            </div>
+            <div class="pt-[52px] pl-[102px] pb-[43px] pr-[102px] border-b border-b-tertiary">
+                <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 lg:gap-20">
+                    <h1 class="text-primary font-display text-[60px] font-bold leading-[66px] w-[77px]">02</h1>
+                    <h2
+                        class="font-display text-tertiary text-[28px] font-semibold leading-[30.8px] w-full lg:w-[200px]">
+                        Union
+                    </h2>
+                    <p class="text-septenary font-text text-[22px] font-normal leading-[34px] w-full lg:w-[600px]">
+                        We offer an inclusive space where every voice is heard and every experience is valued.</p>
+                </div>
+            </div>
+            <div class="pt-[62px] pl-[102px] pb-[102px] pr-[102px]">
+                <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 lg:gap-20">
+                    <h1 class="text-primary font-display text-[60px] font-bold leading-[66px] w-[77px]">03</h1>
+                    <h2
+                        class="font-display text-tertiary text-[28px] font-semibold leading-[30.8px] w-full lg:w-[200px]">
+                        Community
+                    </h2>
+                    <p class="text-septenary font-text text-[22px] font-normal leading-[34px] w-full lg:w-[600px]">
+                        We exchange knowledge, stories and lessons to promote personal and professional development.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="h-auto bg-gradient-primary flex flex-col items-center justify-center py-10">
+        <h2 class="text-primary font-display text-[40px] font-bold leading-[48px] text-center">Why join <br>Valencia
+            Tech Women?</h2>
+        <div class="flex flex-col lg:flex-row justify-between items-center gap-6 lg:gap-24 mt-6">
+            <div class="w-full lg:w-[492px] h-auto lg:h-[251px]">
+                <img src="/assets/image-event/firtsEvent.png" alt="Firts Event"
+                    class="h-auto lg:h-[251px] w-full lg:w-[492px] rounded-[44px]">
+            </div>
+            <div class="w-full lg:w-auto">
                 <div class="w-[90px] h-[24px] bg-black rounded-tr-[14px] flex items-center px-2">
                     <span class="text-white font-text">Benefits</span>
                 </div>
-                <ul class="text-septenary font-text text-[18px] leading-[19.8px] w-[530px] pt-3 list-disc pl-5">
+                <ul
+                    class="text-septenary font-text text-[18px] leading-[19.8px] w-full lg:w-[530px] pt-3 list-disc pl-5">
                     <li>Networking with women who share your passion for technology.</li>
                     <li>Access to exclusive events and inspiring talks.</li>
                     <li>Opportunity for mentoring and professional development.</li>
@@ -70,105 +85,144 @@
         <button class="bg-octonary text-white font-text h-[40px] w-[201px] rounded-full mt-6 cursor-pointer">Join
             us</button>
     </div>
-    <div class="h-[667px] bg-gradient-quintary px-[102px] pt-[62px]">
-        <div class="w-[90px] h-[24px] bg-black rounded-tr-[14px] flex items-center px-2">
-            <span class="text-white font-text">Activities</span>
-        </div>
-        <h2 class="font-display text-tertiary text-[40px] font-bold leading-[48px]">What we do?</h2>
-        <div class="flex gap-[24px] mt-[32px]">
-            <div class="relative w-[344px] h-[352px] flex items-center justify-center">
-                <svg width="344" height="352" viewBox="0 0 344 352" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M343 42.7007V42.7007C343 19.669 322.649 1 297.543 1H46.4595C21.3532 1 1 19.669 1 42.7007V42.7007C1 56.8878 8.72992 69.4125 20.53 76.9456C8.72992 84.4786 1 97.0033 1 111.19C1 124.276 7.5754 135.95 17.8565 143.595C7.5754 151.24 1 162.914 1 176C1 189.572 8.07238 201.625 19.0135 209.239C8.07238 216.854 1 228.907 1 242.477C1 256.149 8.17178 268.284 19.2531 275.889C8.17178 283.492 1 295.629 1 309.299V309.299C1 332.331 21.3532 351 46.4595 351H297.543C322.649 351 343 332.331 343 309.299V309.299C343 295.629 335.828 283.492 324.749 275.889C335.828 268.284 343 256.149 343 242.477C343 228.907 335.93 216.854 324.986 209.239C335.93 201.625 343 189.572 343 176C343 162.914 336.425 151.24 326.143 143.595C336.425 135.95 343 124.276 343 111.19C343 97.0033 335.27 84.4786 323.47 76.9456C335.27 69.4125 343 56.8878 343 42.7007Z"
-                        fill="white" stroke="#6921E7" stroke-width="1.34167" />
-                </svg>
-                <div class="absolute w-[234px] text-wrap">
-                    <h2 class="font-display text-primary text-[30px] font-bold leading-[33px]">Meet-ups</h2>
-                    <p class="text-septenary mt-[40px] font-text text-[18px] leading-[28.8px] font-normal">
-                        Monthly meetups to connect, inspire and strengthen our community of women in technology.
-                    </p>
+    <div class="h-auto bg-gradient-quintary px-[102px] pt-[62px] flex flex-col items-center justify-center">
+        <div class="w-full sm:max-w-4xl md:max-w-5xl lg:max-w-6xl xl:max-w-7xl flex flex-col items-center justify-center">
+            <div class="w-[344px] xl:self-start">
+                <div class="w-[90px] h-[24px] bg-black rounded-tr-[14px] flex items-center px-2">
+                    <span class="text-white font-text">Activities</span>
                 </div>
+                <h2 class="font-display text-tertiary text-[40px] font-bold leading-[48px]">What we do?</h2>
             </div>
-            <div class="relative w-[344px] h-[352px] flex items-center justify-center">
-                <svg width="344" height="352" viewBox="0 0 344 352" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M343 42.7007V42.7007C343 19.669 322.649 1 297.543 1H46.4595C21.3532 1 1 19.669 1 42.7007V42.7007C1 56.8878 8.72992 69.4125 20.53 76.9456C8.72992 84.4786 1 97.0033 1 111.19C1 124.276 7.5754 135.95 17.8565 143.595C7.5754 151.24 1 162.914 1 176C1 189.572 8.07238 201.625 19.0135 209.239C8.07238 216.854 1 228.907 1 242.477C1 256.149 8.17178 268.284 19.2531 275.889C8.17178 283.492 1 295.629 1 309.299V309.299C1 332.331 21.3532 351 46.4595 351H297.543C322.649 351 343 332.331 343 309.299V309.299C343 295.629 335.828 283.492 324.749 275.889C335.828 268.284 343 256.149 343 242.477C343 228.907 335.93 216.854 324.986 209.239C335.93 201.625 343 189.572 343 176C343 162.914 336.425 151.24 326.143 143.595C336.425 135.95 343 124.276 343 111.19C343 97.0033 335.27 84.4786 323.47 76.9456C335.27 69.4125 343 56.8878 343 42.7007Z"
-                        fill="white" stroke="#6921E7" stroke-width="1.34167" />
-                </svg>
-                <div class="absolute w-[234px] text-wrap">
-                    <h2 class="font-display text-primary text-[30px] font-bold leading-[33px]">Workshops</h2>
-                    <p class="text-septenary mt-[40px] font-text text-[18px] leading-[28.8px] font-normal">
-                        Talks and workshops with experts who share key knowledge for our professional development.
-                    </p>
+            <div class="flex flex-col lg:flex-row gap-6 xl:gap-[130px] mt-[32px]">
+                <div class="relative w-[344px] h-[352px] flex items-center justify-center">
+                    <svg width="344" height="352" viewBox="0 0 344 352" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M343 42.7007V42.7007C343 19.669 322.649 1 297.543 1H46.4595C21.3532 1 1 19.669 1 42.7007V42.7007C1 56.8878 8.72992 69.4125 20.53 76.9456C8.72992 84.4786 1 97.0033 1 111.19C1 124.276 7.5754 135.95 17.8565 143.595C7.5754 151.24 1 162.914 1 176C1 189.572 8.07238 201.625 19.0135 209.239C8.07238 216.854 1 228.907 1 242.477C1 256.149 8.17178 268.284 19.2531 275.889C8.17178 283.492 1 295.629 1 309.299V309.299C1 332.331 21.3532 351 46.4595 351H297.543C322.649 351 343 332.331 343 309.299V309.299C343 295.629 335.828 283.492 324.749 275.889C335.828 268.284 343 256.149 343 242.477C343 228.907 335.93 216.854 324.986 209.239C335.93 201.625 343 189.572 343 176C343 162.914 336.425 151.24 326.143 143.595C336.425 135.95 343 124.276 343 111.19C343 97.0033 335.27 84.4786 323.47 76.9456C335.27 69.4125 343 56.8878 343 42.7007Z"
+                            fill="white" stroke="#6921E7" stroke-width="1.34167" />
+                    </svg>
+                    <div class="absolute w-[234px] text-wrap">
+                        <h2 class="font-display text-primary text-[30px] font-bold leading-[33px]">Meet-ups</h2>
+                        <p class="text-septenary mt-[40px] font-text text-[18px] leading-[28.8px] font-normal">
+                            Monthly meetups to connect, inspire and strengthen our community of women in technology.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="relative w-[344px] h-[352px] flex items-center justify-center">
-                <svg width="344" height="352" viewBox="0 0 344 352" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M343 42.7007V42.7007C343 19.669 322.649 1 297.543 1H46.4595C21.3532 1 1 19.669 1 42.7007V42.7007C1 56.8878 8.72992 69.4125 20.53 76.9456C8.72992 84.4786 1 97.0033 1 111.19C1 124.276 7.5754 135.95 17.8565 143.595C7.5754 151.24 1 162.914 1 176C1 189.572 8.07238 201.625 19.0135 209.239C8.07238 216.854 1 228.907 1 242.477C1 256.149 8.17178 268.284 19.2531 275.889C8.17178 283.492 1 295.629 1 309.299V309.299C1 332.331 21.3532 351 46.4595 351H297.543C322.649 351 343 332.331 343 309.299V309.299C343 295.629 335.828 283.492 324.749 275.889C335.828 268.284 343 256.149 343 242.477C343 228.907 335.93 216.854 324.986 209.239C335.93 201.625 343 189.572 343 176C343 162.914 336.425 151.24 326.143 143.595C336.425 135.95 343 124.276 343 111.19C343 97.0033 335.27 84.4786 323.47 76.9456C335.27 69.4125 343 56.8878 343 42.7007Z"
-                        fill="white" stroke="#6921E7" stroke-width="1.34167" />
-                </svg>
-                <div class="absolute w-[234px] text-wrap">
-                    <h2 class="font-display text-primary text-[30px] font-bold leading-[33px]">Collaboration</h2>
-                    <p class="text-septenary mt-[40px] font-text text-[18px] leading-[28.8px] font-normal">
-                        Spaces dedicated to sharing knowledge, projects, ideas and experiences that drive us to grow
-                        together.
-                    </p>
+                <div class="relative w-[344px] h-[352px] flex items-center justify-center">
+                    <svg width="344" height="352" viewBox="0 0 344 352" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M343 42.7007V42.7007C343 19.669 322.649 1 297.543 1H46.4595C21.3532 1 1 19.669 1 42.7007V42.7007C1 56.8878 8.72992 69.4125 20.53 76.9456C8.72992 84.4786 1 97.0033 1 111.19C1 124.276 7.5754 135.95 17.8565 143.595C7.5754 151.24 1 162.914 1 176C1 189.572 8.07238 201.625 19.0135 209.239C8.07238 216.854 1 228.907 1 242.477C1 256.149 8.17178 268.284 19.2531 275.889C8.17178 283.492 1 295.629 1 309.299V309.299C1 332.331 21.3532 351 46.4595 351H297.543C322.649 351 343 332.331 343 309.299V309.299C343 295.629 335.828 283.492 324.749 275.889C335.828 268.284 343 256.149 343 242.477C343 228.907 335.93 216.854 324.986 209.239C335.93 201.625 343 189.572 343 176C343 162.914 336.425 151.24 326.143 143.595C336.425 135.95 343 124.276 343 111.19C343 97.0033 335.27 84.4786 323.47 76.9456C335.27 69.4125 343 56.8878 343 42.7007Z"
+                            fill="white" stroke="#6921E7" stroke-width="1.34167" />
+                    </svg>
+                    <div class="absolute w-[234px] text-wrap">
+                        <h2 class="font-display text-primary text-[30px] font-bold leading-[33px]">Workshops</h2>
+                        <p class="text-septenary mt-[40px] font-text text-[18px] leading-[28.8px] font-normal">
+                            Talks and workshops with experts who share key knowledge for our professional development.
+                        </p>
+                    </div>
+                </div>
+                <div class="relative w-[344px] h-[352px] flex items-center justify-center">
+                    <svg width="344" height="352" viewBox="0 0 344 352" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M343 42.7007V42.7007C343 19.669 322.649 1 297.543 1H46.4595C21.3532 1 1 19.669 1 42.7007V42.7007C1 56.8878 8.72992 69.4125 20.53 76.9456C8.72992 84.4786 1 97.0033 1 111.19C1 124.276 7.5754 135.95 17.8565 143.595C7.5754 151.24 1 162.914 1 176C1 189.572 8.07238 201.625 19.0135 209.239C8.07238 216.854 1 228.907 1 242.477C1 256.149 8.17178 268.284 19.2531 275.889C8.17178 283.492 1 295.629 1 309.299V309.299C1 332.331 21.3532 351 46.4595 351H297.543C322.649 351 343 332.331 343 309.299V309.299C343 295.629 335.828 283.492 324.749 275.889C335.828 268.284 343 256.149 343 242.477C343 228.907 335.93 216.854 324.986 209.239C335.93 201.625 343 189.572 343 176C343 162.914 336.425 151.24 326.143 143.595C336.425 135.95 343 124.276 343 111.19C343 97.0033 335.27 84.4786 323.47 76.9456C335.27 69.4125 343 56.8878 343 42.7007Z"
+                            fill="white" stroke="#6921E7" stroke-width="1.34167" />
+                    </svg>
+                    <div class="absolute w-[234px] text-wrap">
+                        <h2 class="font-display text-primary text-[30px] font-bold leading-[33px]">Collaboration</h2>
+                        <p class="text-septenary mt-[40px] font-text text-[18px] leading-[28.8px] font-normal">
+                            Spaces dedicated to sharing knowledge, projects, ideas and experiences that drive us to grow
+                            together.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="h-[517px] bg-white px-[102px] pt-[62px]">
-        <div class="w-[90px] h-[24px] bg-black rounded-tr-[14px] flex items-center px-2">
-            <span class="text-white font-text">Partners</span>
-        </div>
-        <h2 class="font-display text-primary text-[40px] font-bold leading-[48px] pb-[73px]">Minds at the forefront</h2>
-        <div class="flex justify-between items-center gap-4 pb-[73px]">
-            <div>
-                <img src="/assets/image-avatar/NeemaBalolebwami.png" alt="Neema Balolebwami" class="h-[126px] w-[127px] rounded-tl-0 rounded-tr-full rounded-bl-full rounded-br-full">
-                <p class="font-text text-tertiary text-[18px] font-bold leading-[28.80px] self-stretch pt-[38px]">Neema Balolebwami</p>
-                <p class="font-text text-septenary text-[16px] font-normal leading-[20.64px] self-stretch text-center pt-[20px]">Public Speaker</p>
+    <div class="h-auto bg-white px-[102px] pt-[102px] flex flex-col items-center justify-center">
+        <div class="w-full sm:max-w-4xl md:max-w-5xl lg:max-w-6xl xl:max-w-7xl">
+            <div class="w-[90px] h-[24px] bg-black rounded-tr-[14px] flex items-center px-2">
+                <span class="text-white font-text">Partners</span>
             </div>
-            <div>
-                <img src="/assets/image-avatar/AdrianaCassiani.png" alt="Adriana Cassiani" class="h-[126px] w-[127px] rounded-tl-full rounded-tr-full rounded-bl-full rounded-br-0">
-                <p class="font-text text-tertiary text-[18px] font-bold leading-[28.80px] self-stretch pt-[38px]">Adriana Cassiani</p>
-                <p class="font-text text-septenary text-[16px] font-normal leading-[20.64px] self-stretch text-center pt-[20px]">Product Designer</p>
-            </div>
-            <div>
-                <img src="/assets/image-avatar/MariaCaballero.png" alt="María Caballero" class="h-[126px] w-[127px] rounded-tl-0 rounded-tr-full rounded-bl-full rounded-br-full">
-                <p class="font-text text-tertiary text-[18px] font-bold leading-[28.80px] self-stretch pt-[38px]">María Caballero</p>
-                <p class="font-text text-septenary text-[16px] font-normal leading-[20.64px] self-stretch text-center pt-[20px]">Entrepreneur</p>
-            </div>
-            <div>
-                <img src="/assets/image-avatar/AgathaDelOlmo.png" alt="Agatha del Olmo" class="h-[126px] w-[127px] rounded-tl-full rounded-tr-full rounded-bl-full rounded-br-0">
-                <p class="font-text text-tertiary text-[18px] font-bold leading-[28.80px] self-stretch pt-[38px]">Agatha del Olmo</p>
-                <p class="font-text text-septenary text-[16px] font-normal leading-[20.64px] self-stretch text-center pt-[20px]">Business Analytics</p>
-            </div>
-            <div>
-                <img src="/assets/image-avatar/RosanaNuñez.png" alt="Rosana Nuñez" class="h-[126px] w-[127px] rounded-tl-0 rounded-tr-full rounded-bl-full rounded-br-full">
-                <p class="font-text text-tertiary text-[18px] font-bold leading-[28.80px] self-stretch pt-[38px]">Rosana Nuñez</p>
-                <p class="font-text text-septenary text-[16px] font-normal leading-[20.64px] self-stretch text-center pt-[20px]">Software Developper</p>
+            <h2 class="font-display text-primary text-[40px] font-bold leading-[48px] pb-[73px]">Minds at the forefront
+            </h2>
+            <div class="flex justify-between items-center gap-4 pb-[73px]">
+                <div>
+                    <img src="/assets/image-avatar/NeemaBalolebwami.png" alt="Neema Balolebwami"
+                        class="h-[126px] w-[127px] rounded-tl-0 rounded-tr-full rounded-bl-full rounded-br-full">
+                    <p class="font-text text-tertiary text-[18px] font-bold leading-[28.80px] self-stretch pt-[38px]">
+                        Neema
+                        Balolebwami</p>
+                    <p
+                        class="font-text text-septenary text-[16px] font-normal leading-[20.64px] self-stretch text-center pt-[20px]">
+                        Public Speaker</p>
+                </div>
+                <div>
+                    <img src="/assets/image-avatar/AdrianaCassiani.png" alt="Adriana Cassiani"
+                        class="h-[126px] w-[127px] rounded-tl-full rounded-tr-full rounded-bl-full rounded-br-0">
+                    <p class="font-text text-tertiary text-[18px] font-bold leading-[28.80px] self-stretch pt-[38px]">
+                        Adriana Cassiani</p>
+                    <p
+                        class="font-text text-septenary text-[16px] font-normal leading-[20.64px] self-stretch text-center pt-[20px]">
+                        Product Designer</p>
+                </div>
+                <div>
+                    <img src="/assets/image-avatar/MariaCaballero.png" alt="María Caballero"
+                        class="h-[126px] w-[127px] rounded-tl-0 rounded-tr-full rounded-bl-full rounded-br-full">
+                    <p class="font-text text-tertiary text-[18px] font-bold leading-[28.80px] self-stretch pt-[38px]">
+                        María
+                        Caballero</p>
+                    <p
+                        class="font-text text-septenary text-[16px] font-normal leading-[20.64px] self-stretch text-center pt-[20px]">
+                        Entrepreneur</p>
+                </div>
+                <div>
+                    <img src="/assets/image-avatar/AgathaDelOlmo.png" alt="Agatha del Olmo"
+                        class="h-[126px] w-[127px] rounded-tl-full rounded-tr-full rounded-bl-full rounded-br-0">
+                    <p class="font-text text-tertiary text-[18px] font-bold leading-[28.80px] self-stretch pt-[38px]">
+                        Agatha
+                        del Olmo</p>
+                    <p
+                        class="font-text text-septenary text-[16px] font-normal leading-[20.64px] self-stretch text-center pt-[20px]">
+                        Business Analytics</p>
+                </div>
+                <div>
+                    <img src="/assets/image-avatar/RosanaNuñez.png" alt="Rosana Nuñez"
+                        class="h-[126px] w-[127px] rounded-tl-0 rounded-tr-full rounded-bl-full rounded-br-full">
+                    <p class="font-text text-tertiary text-[18px] font-bold leading-[28.80px] self-stretch pt-[38px]">
+                        Rosana
+                        Nuñez</p>
+                    <p
+                        class="font-text text-septenary text-[16px] font-normal leading-[20.64px] self-stretch text-center pt-[20px]">
+                        Software Developper</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="h-[216px] bg-gradient-quaternary px-[102px] flex flex-col items-center justify-center aling-center">
+    <div class="h-auto bg-gradient-quaternary px-[102px] py-[102px] flex flex-col items-center justify-center aling-center">
         <p class="font-display text-tertiary font-semibold text-[24px] leading-[30.24px] w-[807px] text-center">Connect
             with women like you. Share unique moments. Growing together in technology.</p>
         <button class="bg-octonary text-white font-text h-[40px] w-[139px] rounded-full cursor-pointer mt-2">Join
             us</button>
     </div>
-    <div class="h-[667px] bg-gradient-secondary px-[102px] pt-[62px] flex flex-col">
-        <div class="w-[90px] h-[24px] bg-black rounded-tr-[14px] flex items-center px-2">
-            <span class="text-white font-text">Approach</span>
-        </div>
-        <h2 class="font-display text-primary text-[40px] font-bold leading-[48px]">Be part of the community!</h2>
-        <div class="w-[941px] h-[440px] border border-1 border-tertiary rounded-tr-[160px] rounded-br-[160px] mt-[32px]">
-            <p class="text-septenary font-display font-medium text-[28px] leading-[48.72px] w-[777px] pl-[112px] pt-[84px]">
-                Join Valencia Tech Women and be part of a network where women in technology connect, inspire and grow together.
-                Together we create change! Don't worry... it's free!
-            </p>
-            <button class="bg-octonary text-white font-text h-[40px] w-[139px] rounded-full cursor-pointer mt-[26px] ml-[112px]">Join
-                us</button>
+    <div class="h-auto bg-gradient-secondary px-[102px] pt-[62px] pb-[50px] flex flex-col items-center justify-center">
+        <div class="w-full sm:max-w-4xl md:max-w-5xl lg:max-w-6xl xl:max-w-7xl">
+            <div class="w-[90px] h-[24px] bg-black rounded-tr-[14px] flex items-center px-2">
+                <span class="text-white font-text">Approach</span>
+            </div>
+            <h2 class="font-display text-primary text-[40px] font-bold leading-[48px]">Be part of the community!</h2>
+
+            <div
+                class="w-[941px] h-[440px] border border-1 border-tertiary rounded-tr-[160px] rounded-br-[160px] mt-[32px]">
+                <p
+                    class="text-septenary font-display font-medium text-[28px] leading-[48.72px] w-[777px] pl-[112px] pt-[84px]">
+                    Join Valencia Tech Women and be part of a network where women in technology connect, inspire and
+                    grow
+                    together.
+                    Together we create change! Don't worry... it's free!
+                </p>
+                <button
+                    class="bg-octonary text-white font-text h-[40px] w-[139px] rounded-full cursor-pointer mt-[26px] ml-[112px]">Join
+                    us</button>
+            </div>
         </div>
     </div>
 </section>
