@@ -6,10 +6,13 @@
         <img src="/assets/image-logo/logo.png" alt="Logo" class="h-[29.5px] w-auto max-w-[200px]">
       </a>
       <div class="flex gap-7 items-center">
-        <span class="text-tertiary">EN</span>
-        <a routerLink="/blog"><span class="text-tertiary">Blog</span></a>
+        <select [(ngModel)]="selectedLocale" class="text-tertiary focus:outline-none" (change)="changeLanguage($event)">
+          @for (locale of locales; track locale.value) {
+          <option [value]="locale.value" class="text-tertiary">{{ locale.name }}</option>
+          }
+        </select>
         <button class="w-auto h-[40px] rounded-full bg-octonary font-text">
-          <span class="text-white text-md px-6">Join us</span>
+          <span class="text-white text-md px-6">{{ "Join us" |translate }}</span>
         </button>
       </div>
     </div>
