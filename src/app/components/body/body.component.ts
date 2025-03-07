@@ -8,8 +8,7 @@ import { TranslateModule } from '@ngx-translate/core';
     CarouselComponent,
     TranslateModule
   ],
-  templateUrl: './body.component.html',
-  styleUrl: './body.component.scss'
+  templateUrl: './body.component.html'
 })
 export class BodyComponent {
 

@@ -8,8 +8,7 @@ import { TranslateModule, TranslateService} from '@ngx-translate/core';
     FormsModule,
     TranslateModule
   ],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  templateUrl: './header.component.html'
 })
 export class HeaderComponent {
   translate: TranslateService = inject(TranslateService);

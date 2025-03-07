@@ -6,8 +6,7 @@ import { TranslateModule } from '@ngx-translate/core';
   imports: [
     TranslateModule
   ],
-  templateUrl: './footer.component.html',
-  styleUrl: './footer.component.scss'
+  templateUrl: './footer.component.html'
 })
 export class FooterComponent {
 
