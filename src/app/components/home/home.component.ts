@@ -10,7 +10,8 @@ import { BodyComponent } from '../body/body.component';
     BodyComponent,
     FooterComponent
   ],
-  templateUrl: './home.component.html'
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
 

@@ -1,0 +1,11 @@
+
+.home {
+     display: grid;
+     min-height: 100vh;
+     grid-template-rows: auto 1fr auto;
+     margin: 0 auto;
+ }
+
+body {
+    overflow: hidden;
+ }

@@ -3,9 +3,3 @@
 @use "tailwindcss/components";
 @use "tailwindcss/utilities";
 
-.home {
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
-    margin: 0 auto;
-}
