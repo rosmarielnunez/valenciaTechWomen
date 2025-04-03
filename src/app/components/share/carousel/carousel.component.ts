@@ -38,7 +38,7 @@ export class CarouselComponent {
 
   goToSlide(index: number) {
     this.currentIndex = index;
-    this.stopAutoPlay(); // Detiene autoplay al hacer clic
+    this.stopAutoPlay(); 
     this.startAutoPlay();
   }
 
